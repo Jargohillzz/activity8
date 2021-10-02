@@ -46,6 +46,10 @@ span img {
   letter-spacing: 4px;
 }
 
+.align {
+  margin: auto 0;
+}
+
 .pad {
   position: relative;
   left: 60px;
