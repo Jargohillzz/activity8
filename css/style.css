@@ -101,12 +101,6 @@ span img {
     width: 100%;
     transform: translateX(-75px);
   }
-  .contact-us-page .container {
-    margin-left: 20px;
-  }
-  .services-page .container {
-    margin-left: 20px;
-  }
   .services-page .container .text {
     margin-top: 40px;
   }
