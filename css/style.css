@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contain {
+  width: 90%;
+  padding: 0 auto;
+}
+span img {
+  width: 37px;
+  height: 37px;
+  align-items: center;
+}
+.landing-page {
+  background-image: url(../images/background-orange.jpg);
+}
+.jargo-image img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.orange {
+  background-color: #f26518;
+}
+.person {
+  background: url(../images/person.jpg) no-repeat;
+  background-size: cover;
+}
+.hello {
+  font-size: 5rem;
+}
+.name {
+  font-size: 3.5rem;
+}
+.contact-us-page {
+  background: url(../images/gaming-contact.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contact-h4-text h4 {
+  letter-spacing: 4px;
+}
+
+.pad {
+  position: relative;
+  left: 60px;
+}
+.controller {
+  width: 90%;
+}
+.color-box {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: linear-gradient(#ff54a2, #ff575a);
+  border-radius: 20px 0 0 20px;
+  height: 100%;
+  width: 90%;
+  z-index: -1;
+  transform: translateX(150px);
+}
+.services-page {
+  background: url(../images/gaming-ga2435ae8e_1920.jpg) no-repeat;
+  background-size: cover;
+}
+.social-media {
+  width: fit-content;
+  margin: auto auto;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 430px) {
+  body {
+    min-width: 431px;
+  }
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+  .landing-page .container .row .col-md-6 {
+    padding: 0;
+    margin: 0;
+  }
+  .hello {
+    font-size: 3rem;
+  }
+  .name {
+    font-size: 2.5rem;
+  }
+  .person {
+    background-position: -50px;
+  }
+  .about-us-page .col-md-6 {
+    padding-left: 30px;
+  }
+  .controller {
+    width: 100%;
+    transform: translateX(-75px);
+  }
+  .contact-us-page .container {
+    margin-left: 20px;
+  }
+  .services-page .container {
+    margin-left: 20px;
+  }
+  .services-page .container .text {
+    margin-top: 40px;
+  }
+  .text-font {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media only screen and (max-width: 425px) and (min-width: 320px) {
+  body {
+    min-width: 321px;
+  }
+
+  .hello {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+  .name {
+    font-size: 2rem;
+  }
+  .landing-page .mt-5 {
+    margin: 10px 0 !important;
+  }
+  .person {
+    background-position: top center;
+  }
+  .jargo-image .vh-100 {
+    height: 400px !important;
+  }
+  .landing-page .container .row .col-md-6 {
+    padding: 0;
+    margin: 0;
+  }
+  .about-us-page .row {
+    flex-direction: column-reverse;
+    margin: 0;
+    padding: 0;
+  }
+  .pad {
+    margin-bottom: 50px;
+  }
+
+  .controller {
+    width: 100%;
+    transform: translateX(-75px);
+  }
+  .color-box {
+    transform: translateX(75px);
+  }
+  .about-us-page .col-md-6 {
+    padding: 10px;
+  }
+
+  .about-us-page h2 {
+    font-size: 3rem;
+  }
+  .about-us-page h3 {
+    font-size: 1.5rem;
+  }
+  .about-us-page p {
+    font-size: 0.7rem;
+  }
+  .contact-us-page {
+    background: url(../images/gaming-contact.jpg) no-repeat;
+    background-size: inherit;
+    background-position: center;
+  }
+  .text-font br {
+    display: none;
+  }
+}
