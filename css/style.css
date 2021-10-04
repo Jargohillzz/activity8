@@ -77,9 +77,10 @@ span img {
   margin: auto auto;
 }
 
-@media only screen and (max-width: 768px) and (min-width: 430px) {
+@media only screen and (max-width: 768px) {
   body {
-    min-width: 431px;
+    min-width: 430px;
+    max-width: 768px;
   }
   .container {
     padding: 0;
@@ -174,7 +175,6 @@ span img {
     font-size: 0.7rem;
   }
   .contact-us-page {
-    background: url(../images/gaming-contact.jpg) no-repeat;
     background-size: inherit;
     background-position: center;
   }
