@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  max-width: 1340px;
+  max-width: 1470px;
 }
 
 .contain {
@@ -59,17 +59,6 @@ span img {
 .controller {
   width: 90%;
 }
-.color-box {
-  position: absolute;
-  right: 0;
-  top: 0;
-  background: linear-gradient(#ff54a2, #ff575a);
-  border-radius: 20px 0 0 20px;
-  height: 100%;
-  width: 90%;
-  z-index: -1;
-  transform: translateX(150px);
-}
 .services-page {
   background: url(../images/gaming-ga2435ae8e_1920.jpg) no-repeat;
   background-size: cover;
@@ -101,10 +90,13 @@ span img {
     background-position: -50px;
   }
   .about-us-page .col-md-6 {
-    padding-left: 30px;
+    padding-left: 0px;
+  }
+  .pad {
+    left: 20%;
   }
   .controller {
-    width: 100%;
+    width: 80%;
     transform: translateX(-75px);
   }
   .contact-us-page .container {
@@ -144,11 +136,6 @@ span img {
   .landing-page .container .row .col-md-6 {
     padding: 0;
     margin: 0;
-  }
-  .about-us-page .row {
-    flex-direction: column-reverse;
-    margin: 0;
-    padding: 0;
   }
   .pad {
     margin-bottom: 50px;
